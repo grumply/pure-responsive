@@ -1,4 +1,4 @@
-{-# LANGUAGE TypeFamilies, MultiParamTypeClasses, PatternSynonyms, ViewPatterns, CPP, DuplicateRecordFields, RecordWildCards, DeriveGeneric, OverloadedStrings #-}
+{-# LANGUAGE TypeFamilies, MultiParamTypeClasses, PatternSynonyms, ViewPatterns, CPP, DuplicateRecordFields, RecordWildCards, DeriveGeneric, OverloadedStrings, FlexibleContexts #-}
 module Pure.Responsive where
 
 import Pure hiding (MinWidth,MaxWidth,minWidth,maxWidth)
