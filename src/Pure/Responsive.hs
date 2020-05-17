@@ -1,7 +1,7 @@
 {-# LANGUAGE TypeFamilies, MultiParamTypeClasses, PatternSynonyms, ViewPatterns, CPP, DuplicateRecordFields, RecordWildCards, DeriveGeneric, OverloadedStrings, FlexibleContexts #-}
 module Pure.Responsive where
 
-import Pure hiding (MinWidth,MaxWidth,minWidth,maxWidth)
+import Pure hiding (MinWidth,MaxWidth,minWidth,maxWidth,(#))
 import Pure.Data.Cond
 import Pure.Data.Prop
 
